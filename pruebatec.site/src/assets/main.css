@@ -1,0 +1,97 @@
+@import './base.css';
+
+#app {
+  /*max-width: 1280px;*/
+  margin: 0 auto;
+  /*padding: 2rem;*/
+  font-weight: normal;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #d3d3d3, #f0f0f0, #c0c0c0);
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+input,
+select {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  margin: 0.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  flex: 1;
+}
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.resultado {
+  margin-top: 2rem;
+  background-color: #f0f9ff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #91d5ff;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  color: #333;
+  margin-top: 1rem;
+}
+
+h3 {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  color: #333;
+  margin-top: 1rem;
+}
+
+p {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 300;
+  color: #333;
+  margin-top: 1rem;
+}
